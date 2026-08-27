@@ -1,0 +1,30 @@
+fastapi[standard]==0.141.1
+fastapi-mail==1.6.8
+uvicorn[standard]==0.52.4
+python-dotenv==1.2.3
+pymongo==4.17.0
+pydantic==2.13.4
+httpx==0.28.1
+amqp==5.3.1 #Part of Celery for AMQP protocol messaging
+billiard==4.2.1 #Part of Celery to help with parallelism
+canvasapi==3.3.0 #The Canvas API wrapper
+celery==5.4.0 #A library for an async tasks used for email sending
+certifi==2024.12.14 #Certificate provider
+charset-normalizer==3.4.0 #Encoding detector used by requests
+click==8.1.7 #CLI framework for Celery
+click-didyoumean==0.3.1 #Click CLI extension for subcommand auto-suggestions in Celery
+click-plugins==1.1.1 #Click CLI extension for registering external plugins
+click-repl==0.3.0 #Click CLI extension for interactive REPL shell execution
+idna==3.10 #Domain name handling
+kombu==5.4.2 #Messaging transport framework for Celery
+prompt_toolkit==3.0.48 #CLI prompt component for click-repl
+python-dateutil==2.9.0.post0 #Date parsing util for Canvas and Django
+redis==5.2.1 #Redis client acting as a broker and result backend for Celery
+requests==2.32.3 #The HTTP requests library
+six==1.17.0 #Python 2 and 3 compatibility util
+tzdata==2024.2 #Timezone database provider for Django
+urllib3==2.2.3 #HTTP client library
+vine==5.1.0 #Promise execution library for Celery
+wcwidth==0.2.13 #Terminal character width formatting for prompt_toolkit
+pillow==12.0.0 #Imaging library used to layout nametag graphics
+brother_ql==0.9.4 #Driver and CLI tool for brother printer
