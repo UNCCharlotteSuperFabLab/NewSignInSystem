@@ -1,10 +1,10 @@
-fastapi[standard]==0.141.1
-fastapi-mail==1.6.8
-uvicorn[standard]==0.52.4
-python-dotenv==1.2.3
-pymongo==4.17.0
-pydantic==2.13.4
-httpx==0.28.1
+fastapi[standard]==0.141.1 #Web-server library
+fastapi-mail==1.6.8 #Mail addon to FastAPI
+uvicorn[standard]==0.52.4 #The asynchronus web interface 
+python-dotenv==1.2.3 #Allowing us to use a .env file
+pymongo==4.17.0 #Mongo connection library
+pydantic==2.13.4 #Input and HTML sanitizer
+httpx==0.28.1 #HTTP Client interface
 amqp==5.3.1 #Part of Celery for AMQP protocol messaging
 billiard==4.2.1 #Part of Celery to help with parallelism
 canvasapi==3.3.0 #The Canvas API wrapper
